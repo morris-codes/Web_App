@@ -5,7 +5,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
-
+    overflow-x: hidden;
 }
 
 .hero {
@@ -29,7 +29,7 @@
 
 .logo {
     width: 100px;
-    height: 40px;
+    height: fit-content;
     /* border: solid purple solid green; */
 }
 
@@ -50,7 +50,7 @@ a {
 }
 
 .icons {
-    width: 100px;
+    width: 120px;
     height: 40px;
     /* border: solid purple solid black; */
 }
@@ -61,7 +61,7 @@ a {
     /* border: solid purple solid black; */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 250px;
+    margin-top: 190px;
     color: white;
     text-align: center;
     font-family: "Open Sans", sans-serif;
