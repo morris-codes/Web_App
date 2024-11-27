@@ -769,3 +769,62 @@ a {
     border-radius: 50px;
     /* border: 1px solid pink; */
 }
+
+.mob_icon{
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        height: 80vh; /* Adjust height of hero for smaller screens */
+    }
+
+    .nav_container {
+        height: 60px; /* Adjust navigation container height */
+    }
+
+    .logo {
+        width: 120px; /* Make the logo smaller */
+    }
+    .mob_icon{
+        width: 50px;
+        height: 50px;
+        border: 2px solid white;
+        display: block;
+        border-radius: 5px;
+        background-color: white;
+    }
+    .mob_icon div{
+         border-bottom: 2px solid black;
+         width: 40px;
+         margin-top: 8px;
+         margin-inline: auto;
+   
+    }
+    .icons{
+        display: none;
+    }
+    .nav_container{
+        justify-content: space-around;
+        width: 90%;
+        margin-inline: auto;
+        height: 70px;
+    }
+    .nav {
+       visibility: hidden;
+    }
+    .main_content {
+        width: 50%; /* Adjust content width */
+        /* margin: 150px auto ; */
+    }
+    .second_page{
+        flex-direction: column;
+    }
+
+
+
+
+}
