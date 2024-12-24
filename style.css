@@ -14,7 +14,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 120vh;
+    height: 100vh;
 }
 
 .nav_container {
@@ -61,7 +61,7 @@ a {
     /* border: solid purple solid black; */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 190px;
+    margin-top: 230px;
     color: white;
     text-align: center;
     font-family: "Open Sans", sans-serif;
@@ -777,9 +777,9 @@ a {
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 520px) {
     .hero {
-        height: 80vh; /* Adjust height of hero for smaller screens */
+        max-height: 70vh; /* Adjust height of hero for smaller screens */
     }
 
     .nav_container {
@@ -818,11 +818,17 @@ a {
     }
     .main_content {
         width: 50%; /* Adjust content width */
-        /* margin: 150px auto ; */
+        max-height: fit-content;
+        margin: 80px auto;
+    }
+    .text p{
+        font-size: 18px;
     }
     .second_page{
         flex-direction: column;
     }
+
+
 
 
 
